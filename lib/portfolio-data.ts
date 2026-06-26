@@ -141,7 +141,7 @@ export const projects = [
       'A convolutional neural network trained on Fashion MNIST with a focus on embedding learning and clustering, where the model represents fashion items in a 3D embedding space with well-separated clusters for each of the 10 clothing classes.',
     image: '/projects/fashionmnist.png',
     technologies: ['PyTorch', 'torchvision', 'scikit-learn', 'Plotly', 'Gaussian Mixture Models'],
-    features: ['Center loss optimization', 'Trained PyTorch model', 'ARI: 0.67'],
+    features: ['Center loss optimization', 'Trained PyTorch model'],
     links: [{ label: 'Source', href: 'https://github.com/kxvlar/fashionmnist-nn' }],
   },
   {
