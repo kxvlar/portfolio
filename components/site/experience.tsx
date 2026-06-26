@@ -31,7 +31,7 @@ export function Experience() {
 
           <div className="grid md:grid-cols-[18rem_1fr]">
             <div className="border-b border-border p-6 md:border-r md:border-b-0">
-              <p className="font-mono text-xs tracking-widest text-accent uppercase">
+              <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
                 $ whoami
               </p>
               <dl className="mt-4 space-y-2 font-mono text-sm">
@@ -51,7 +51,7 @@ export function Experience() {
             </div>
 
             <div className="p-6">
-              <p className="font-mono text-xs tracking-widest text-accent uppercase">
+              <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
                 $ cat work-experience
               </p>
               <ol className="mt-4 space-y-px">
@@ -80,7 +80,7 @@ export function Experience() {
                           {w.type} / {w.location}
                         </div>
                       </div>
-                      <span className="font-mono text-xs text-accent">
+                      <span className="font-mono text-xs text-muted-foreground">
                         {w.period}
                       </span>
                     </div>
