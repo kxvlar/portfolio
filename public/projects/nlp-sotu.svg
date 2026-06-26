@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">State of the Union NLP project preview</title>
+  <desc id="desc">A dark analytical visualization with topic clusters and text tokens.</desc>
+  <rect width="1200" height="750" fill="#050505"/>
+  <g opacity="0.18" stroke="#ffffff" stroke-width="1">
+    <path d="M0 90h1200M0 180h1200M0 270h1200M0 360h1200M0 450h1200M0 540h1200M0 630h1200"/>
+    <path d="M120 0v750M240 0v750M360 0v750M480 0v750M600 0v750M720 0v750M840 0v750M960 0v750M1080 0v750"/>
+  </g>
+  <g font-family="SFMono-Regular, Consolas, monospace" font-size="28" fill="#ffffff" opacity="0.38">
+    <text x="66" y="95">union</text>
+    <text x="292" y="148">economy</text>
+    <text x="735" y="114">security</text>
+    <text x="915" y="204">jobs</text>
+    <text x="144" y="315">freedom</text>
+    <text x="492" y="276">health</text>
+    <text x="825" y="356">policy</text>
+    <text x="234" y="532">nation</text>
+    <text x="620" y="586">future</text>
+    <text x="938" y="648">congress</text>
+  </g>
+  <g fill="none" stroke="#8b5cf6" stroke-width="3" opacity="0.6">
+    <path d="M248 218C392 96 524 306 672 192S862 140 988 254"/>
+    <path d="M166 522C338 360 530 612 706 430S962 358 1066 512"/>
+    <path d="M282 390C450 456 536 298 704 350S892 526 1038 392"/>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="248" cy="218" r="48" opacity="0.92"/>
+    <circle cx="672" cy="192" r="38" opacity="0.82"/>
+    <circle cx="988" cy="254" r="44" opacity="0.76"/>
+    <circle cx="166" cy="522" r="40" opacity="0.7"/>
+    <circle cx="706" cy="430" r="54" opacity="0.88"/>
+    <circle cx="1066" cy="512" r="34" opacity="0.72"/>
+    <circle cx="438" cy="382" r="30" opacity="0.62"/>
+    <circle cx="826" cy="596" r="26" opacity="0.58"/>
+  </g>
+  <g fill="#8b5cf6" opacity="0.95">
+    <circle cx="248" cy="218" r="12"/>
+    <circle cx="672" cy="192" r="12"/>
+    <circle cx="988" cy="254" r="12"/>
+    <circle cx="166" cy="522" r="12"/>
+    <circle cx="706" cy="430" r="12"/>
+    <circle cx="1066" cy="512" r="12"/>
+  </g>
+  <g font-family="SFMono-Regular, Consolas, monospace" fill="#ffffff">
+    <text x="72" y="690" font-size="36" font-weight="700">SOTU NLP</text>
+    <text x="72" y="724" font-size="18" opacity="0.55">topic modeling // semantic change // reproducible research</text>
+  </g>
+</svg>
