@@ -317,8 +317,25 @@ export function HyperspaceIntro({
 
         <div className="hyperspace-titleblock">
           <h1 className="hyperspace-glitch" data-text="KEVAL AMIN">
-            <span className="hyperspace-card-letter">K</span>
-            EVAL <span className="hyperspace-card-letter">A</span>
+            <span className="hyperspace-card-letter">
+              <span className="hyperspace-suit hyperspace-suit-tl" aria-hidden="true">
+                ♥
+              </span>
+              <span className="hyperspace-rank">K</span>
+              <span className="hyperspace-suit hyperspace-suit-br" aria-hidden="true">
+                ♥
+              </span>
+            </span>
+            EVAL{' '}
+            <span className="hyperspace-card-letter">
+              <span className="hyperspace-suit hyperspace-suit-tl" aria-hidden="true">
+                ♥
+              </span>
+              <span className="hyperspace-rank">A</span>
+              <span className="hyperspace-suit hyperspace-suit-br" aria-hidden="true">
+                ♥
+              </span>
+            </span>
             MIN
           </h1>
           <p className="hyperspace-role">
