@@ -17,7 +17,7 @@ export function About() {
             applied AI tools that turn ambiguous problems into decision-ready
             software. My work spans blockchain asset quality, economics
             research, AI agents, causal inference, and full-stack products that
-            make complex models usable by real operators. Also a Triple Major with Honors in Statistics, Economics and Politics and Government @ UC Berkeley- Sciences Po Dual BA.
+            make complex models usable by real operators. Also a Triple Major with Honors in Statistics, Economics and Politics and Government @ UC Berkeley-Sciences Po Dual BA.
 
   
           </p>
