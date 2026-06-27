@@ -1,4 +1,4 @@
-````md
+
 # Keval Amin Portfolio
 
 A personal portfolio site for Keval Amin, built with Next.js, React, TypeScript, and Tailwind CSS. The site presents Keval's work across machine learning, data science, applied AI, blockchain infrastructure, statistical modeling, and full-stack data products.
