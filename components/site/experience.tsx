@@ -9,6 +9,24 @@ const profile = [
   ['Focus', 'Production ML, data systems, applied AI'],
 ]
 
+const education = [
+  {
+    school: 'UC Berkeley',
+    items: [
+      'Bachelor in Statistics at College of Computing, Data Science and Society',
+      'Bachelor in Economics at College of Letters and Sciences',
+    ],
+  },
+  {
+    school: 'Sciences Po',
+    items: [
+      'Bachelor in Politics and Government',
+      'Euro-North American minor',
+      'International Trade and Finance minor',
+    ],
+  },
+]
+
 export function Experience() {
   return (
     <section id="experience" className="border-t border-border py-20 sm:py-28">
@@ -52,6 +70,24 @@ export function Experience() {
 
             <div className="p-6">
               <p className="font-mono text-xs tracking-widest text-muted-foreground uppercase">
+                $ cat education
+              </p>
+              <div className="mt-4 grid gap-px border border-border bg-border">
+                {education.map((group) => (
+                  <div key={group.school} className="bg-background p-4">
+                    <div className="font-display font-bold">{group.school}</div>
+                    <ul className="mt-3 grid gap-2 text-xs leading-relaxed text-muted-foreground">
+                      {group.items.map((item) => (
+                        <li key={item} className="border-l border-border pl-3">
+                          {item}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+
+              <p className="mt-8 font-mono text-xs tracking-widest text-muted-foreground uppercase">
                 $ cat work-experience
               </p>
               <ol className="mt-4 space-y-px">

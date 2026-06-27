@@ -4,10 +4,10 @@ import { SectionHeading } from './section-heading'
 
 function linkClass(label: string) {
   if (label === 'Live') {
-    return 'border-accent bg-accent text-accent-foreground hover:bg-foreground hover:text-background'
+    return 'border-red-500 bg-red-500 text-white hover:border-red-400 hover:bg-red-400'
   }
   if (label === 'Paper') {
-    return 'border-foreground bg-foreground text-background hover:border-accent hover:bg-accent hover:text-accent-foreground'
+    return 'border-foreground bg-foreground text-background hover:border-red-500 hover:bg-red-500 hover:text-white'
   }
   return 'border-border bg-secondary text-muted-foreground hover:border-foreground hover:text-foreground'
 }
@@ -39,14 +39,14 @@ export function Projects() {
                 <span className="absolute top-3 left-3 font-display text-6xl font-bold text-foreground/10">
                   {p.id}
                 </span>
-                <span className="absolute right-3 bottom-3 border border-border bg-background px-2 py-1 text-[10px] tracking-widest text-accent uppercase">
+                <span className="absolute right-3 bottom-3 border border-border bg-black/90 px-2 py-1 text-[10px] tracking-widest text-red-500 uppercase">
                   {p.tag}
                 </span>
               </div>
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <h3 className="font-display text-xl font-bold">{p.name}</h3>
-                  <div className="mt-1 font-mono text-xs text-accent">
+                  <div className="mt-1 font-mono text-xs text-red-500">
                     {p.period}
                   </div>
                 </div>
@@ -80,7 +80,7 @@ export function Projects() {
               </div>
               <ul className="mt-5 grid gap-2 text-xs text-muted-foreground">
                 {p.features.map((feature) => (
-                  <li key={feature} className="border-l border-accent pl-3">
+                  <li key={feature} className="border-l-2 border-red-500 pl-3">
                     {feature}
                   </li>
                 ))}

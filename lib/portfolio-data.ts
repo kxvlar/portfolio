@@ -2,7 +2,7 @@ export const contact = {
   name: 'Keval Amin',
   location: 'Berkeley, CA',
   email: 'keval.amin@berkeley.edu',
-  linkedin: 'https://linkedin.com/in/kevalamin',
+  linkedin: 'https://www.linkedin.com/in/kdamin/',
   github: 'https://github.com/kxvlar',
 }
 

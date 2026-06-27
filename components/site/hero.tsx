@@ -38,7 +38,7 @@ export function Hero() {
         <TypingText
           as="p"
           text={['ML ENGINEER', 'DATA SCIENTIST', 'APPLIED AI BUILDER']}
-          className="font-mono text-sm tracking-[0.35em] text-accent uppercase sm:text-base"
+          className="font-mono text-sm tracking-[0.35em] text-red-500 uppercase sm:text-base"
         />
         <h1 className="mt-4 max-w-5xl font-display text-[15vw] leading-[0.85] font-bold text-balance sm:text-[12vw] lg:text-[9.5rem]">
           Keval Amin
