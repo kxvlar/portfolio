@@ -33,7 +33,7 @@ export const experiences = [
   },
   {
     role: 'Research Associate',
-    org: 'University of California Berkeley',
+    org: 'UC Berkeley',
     type: 'Internship',
     location: 'Berkeley, CA',
     period: 'May 2025 - September 2025',

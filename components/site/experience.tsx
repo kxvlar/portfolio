@@ -11,7 +11,7 @@ const profile = [
 
 const education = [
   {
-    school: 'UC Berkeley',
+    school: 'University of California, Berkeley',
     items: [
       'Bachelor in Statistics at College of Computing, Data Science and Society',
       'Bachelor in Economics at College of Letters and Sciences',
@@ -39,9 +39,9 @@ export function Experience() {
 
         <div className="mt-12 border border-border">
           <div className="flex items-center gap-2 border-b border-border bg-secondary px-4 py-2.5">
-            <span className="size-3 rounded-full border border-border bg-accent" />
-            <span className="size-3 rounded-full border border-border" />
-            <span className="size-3 rounded-full border border-border" />
+            <span className="size-3 rounded-full border border-red-500/70 bg-red-500" />
+            <span className="size-3 rounded-full border border-yellow-400/70 bg-yellow-400" />
+            <span className="size-3 rounded-full border border-green-500/70 bg-green-500" />
             <span className="ml-3 font-mono text-xs tracking-widest text-muted-foreground uppercase">
               /keval-resume.sh
             </span>
@@ -96,8 +96,8 @@ export function Experience() {
                     key={`${w.role}-${w.org}`}
                     className="border border-border bg-background p-4"
                   >
-                    <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
-                      <div>
+                    <div className="grid gap-2 sm:grid-cols-[minmax(0,1fr)_max-content] sm:items-start">
+                      <div className="min-w-0">
                         <div className="font-display font-bold">{w.role}</div>
                         <div className="text-xs text-muted-foreground">
                           {w.href ? (
@@ -116,7 +116,7 @@ export function Experience() {
                           {w.type} / {w.location}
                         </div>
                       </div>
-                      <span className="font-mono text-xs text-muted-foreground">
+                      <span className="font-mono text-xs whitespace-nowrap text-muted-foreground sm:pt-1">
                         {w.period}
                       </span>
                     </div>
